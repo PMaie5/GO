@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+const ebulicaoK float64 = 373.0
+
+func main() {
+
+	var tempk float64 = ebulicaoK
+	var tempc float64 = (tempk - 273)
+
+	fmt.Println(" A temperatura de ebulição da água em graus Kelvin = ", tempk)
+	fmt.Println(" A temperatura de ebulição da agua em graus Celsius = ", tempc)
+
+}
